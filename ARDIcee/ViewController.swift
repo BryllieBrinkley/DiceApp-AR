@@ -21,7 +21,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         self.sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
 
         sceneView.delegate = self
-
+        
         sceneView.autoenablesDefaultLighting = true
     
         }
@@ -95,6 +95,24 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                 duration: 0.5)
         )
     }
+    
+    @IBAction func rollAgain(_ sender: UIBarButtonItem) {
+        rollDice()
+    }
+    
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        rollDice()
+    }
+    
+    @IBAction func removeAllDice(_ sender: UIBarButtonItem) {
+        
+        if !diceArray.isEmpty {
+            for dice in diceArray {
+                dice.removeFromParentNode()
+            }
+        }
+    }
+    
     
     func renderer(_ renderer: any SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         if anchor is ARPlaneAnchor {
