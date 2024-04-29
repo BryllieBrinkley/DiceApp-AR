@@ -1,7 +1,10 @@
-DiceApp-AR is an augmented reality extension of my original DiceApp where you can experience your dice in stunning 3D!
+## DiceApp-AR
+
+DiceApp-AR is an augmented reality extension of my original diceApp, where you can nwo experience your dice in stunning 3D!
 
 Simply tap anywhere on your screen to place as many 3D dice as you desire. 
 Roll them individually or tap the "Roll All" button ("refresh" button, top-right corner) to roll them all simultaneously.
+
 
 Through developing this app, I gained and solidified knowledge in various learning topics, including...
 
@@ -17,7 +20,7 @@ Through developing this app, I gained and solidified knowledge in various learni
 * Swift ARKit
 * SceneKit
 
-Installation & How to Run To run this project, make sure you have Xcode on your machine and follow these steps:
+## Installation & How to Run To run this project, make sure you have Xcode on your machine and follow these steps:
 
 * Clone the repository to your local machine. 
 * Open the project file in Xcode and click the "play" button in the Xcode toolbar (or you can use the keyboard shortcut Command-R.)
