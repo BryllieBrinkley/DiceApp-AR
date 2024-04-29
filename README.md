@@ -1,4 +1,5 @@
-an augmented reality extension of my original DiceApp. With DiceApp-AR, you can now experience your favorite dice in stunning 3D! 
+DiceApp-AR is an augmented reality extension of my original DiceApp where you can experience your dice in stunning 3D!
+
 Simply tap anywhere on your screen to place as many 3D dice as you desire. 
 Roll them individually or tap the "Roll All" button ("refresh" button, top-right corner) to roll them all simultaneously.
 
